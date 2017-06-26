@@ -5,7 +5,7 @@ import registerServiceWorker from './registerServiceWorker';
 import './index.css';
 import {createStore, combineReducers} from 'redux';
 import {Provider} from 'react-redux'; 
-import {tabReducer, numbersReducer, pictureReducer, historyReducer, productReducer, imageReducer, priceReducer, basketReducer } from './reducers/reducers.js';
+import {tabReducer, numbersReducer, pictureReducer, historyReducer, productReducer, basketReducer } from './reducers/reducers.js';
 
 
 

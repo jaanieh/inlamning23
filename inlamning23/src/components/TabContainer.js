@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import ListView from './ListView';
-import {actionChangeTab, actionAddToBasket, actionAddNumber, actionHistory, actionAddProduct } from '../actions/actions.js';
+import {actionChangeTab, actionAddNumber, actionHistory } from '../actions/actions.js';
 import {connect} from 'react-redux';
 import History from './history';
 import ProductView from "./ProductView";

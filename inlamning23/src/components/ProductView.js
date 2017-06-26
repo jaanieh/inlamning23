@@ -6,7 +6,7 @@ import {connect} from "react-redux";
 class ProductView extends Component {
     render(){
     let i = 0;
-    const productList = this.props.products.map(p => <li key={i++}>{p.name}, {p.price}kr <br /> <img src={p.image}/><br />
+    const productList = this.props.products.map(p => <li key={i++}>{p.name}, {p.price}kr <br /> <img alt="" src={p.image}/><br />
     <button onClick={() => this.handleClickAddToBasket(p)}>Lägg i kundvagn</button></li>);
   return <ul>{productList}</ul> }
   

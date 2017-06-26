@@ -7,8 +7,8 @@ import {connect} from "react-redux";
  class Basket extends Component {
   render() {
     let i = 0;
-    const productList = this.props.basket.map(p => <li key={i++}>{p.name}, {p.price}kr <br /> <img src={p.image}/><br />
-    <button onClick={() => this. handleClickRemoveFromBasket(p)}>Ta bort</button>
+    const productList = this.props.basket.map(p => <li key={i++}>{p.name}, {p.price}kr <br /> <img alt="" src={p.image}/><br />
+    <button onClick={() => this.handleClickRemoveFromBasket(p)}>Ta bort</button>
     </li>);
     let sum = 0;
     this.props.basket.forEach(p=>{

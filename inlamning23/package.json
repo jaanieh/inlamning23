@@ -20,5 +20,5 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "http://username.github.io/repo"
+  "homepage": "http://jaanieh.github.io/inlamning23"
 }
